@@ -1,3 +1,12 @@
+
+ Assignment No 5
+
+Implement the Continuous Bag of Words (CBOW) Model. Stages can be:
+a. Data preparation
+b. Generate training data
+c. Train model
+d. Output
+
 import numpy as np
 import keras.backend as K  # imp
 from keras.models import Sequential
