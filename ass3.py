@@ -1,5 +1,13 @@
+#--Assignment 3--
+
+# Build the Image classification model by dividing the model into following 4 stages:
+# a. Loading and preprocessing the image data
+# b. Defining the model’s architecture
+# c. Training the model
+# d. Estimating the model’s performance
+
 import pandas as pd
-#importing required packages
+
 import tensorflow as tf
 from keras.models import Sequential
 from keras.layers import Dense,Conv2D,Dropout,Flatten,MaxPooling2D
